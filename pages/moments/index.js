@@ -71,12 +71,6 @@ export default function Moments() {
                 <MomentsItem />
                 <MomentsItem />
                 <MomentsItem />
-                <MomentsItem />
-                <MomentsItem />
-                <MomentsItem />
-                <MomentsItem />
-                <MomentsItem />
-                <MomentsItem />
             </div>
         </>
     )
