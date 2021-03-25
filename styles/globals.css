@@ -1,5 +1,14 @@
+html{
+  background: #786d6d;
+}
+body{
+  background-color: #fff;
+  min-height: 100vh;
+}
 html,
 body {
+  user-select: none;
+
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
