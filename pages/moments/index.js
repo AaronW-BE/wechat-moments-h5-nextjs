@@ -62,7 +62,9 @@ export default function Moments() {
                         <div>AaronW</div>
                         <div>AaronW's moments</div>
                     </div>
-                    <div className={styles.avatar} />
+                    <div className={styles.avatar}>
+                        <img src="./avatar.jpg" alt=""/>
+                    </div>
                 </div>
             </div>
             <div className={styles['moments-list']}>
