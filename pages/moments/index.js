@@ -4,7 +4,7 @@ import {useEffect} from "react";
 const MomentsItem = ({}) => {
     return <div className={styles['moments-item']}>
         <div className={styles['moments-avatar']}>
-            <img src="/avatar.jpg" alt=""/>
+            <img src="./avatar.jpg" alt=""/>
         </div>
         <div className={styles['moments-main']}>
             <div className={styles['moments-detail']}>
@@ -56,7 +56,7 @@ export default function Moments() {
     return (
         <>
             <div className={styles.head}>
-                <img src='/moments.jpg' alt=""/>
+                <img src='./moments.jpg' alt=""/>
                 <div className={styles.owner}>
                     <div className={styles.info}>
                         <div>AaronW</div>
