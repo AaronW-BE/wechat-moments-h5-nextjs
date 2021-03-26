@@ -1,4 +1,6 @@
-module.exports = {
-    /* config options here */
-    assetPrefix: './'
+module.exports = (phase, { defaultConfig }) => {
+    return {
+        assetPrefix: './',
+        basePath: '/wechat-moments-h5-nextjs'
+    }
 }
